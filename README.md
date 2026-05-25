@@ -1,7 +1,7 @@
-# Rv Media Online 🚀
+# Rv Media Technologies 🚀
 
-> **India's #1 Algorithm-Driven Digital Marketing Agency**
-> *"The Art of The Algorithm"*
+> **India's #1 Algorithm-Driven Digital Marketing & Tech Agency**
+> *"The Art of The Algorithm + Code"*
 
 A premium, full-stack marketing agency website built with React + Vite, featuring real 3D elements, Supabase backend, and one-click Vercel deployment.
 
@@ -120,7 +120,7 @@ See **[DEPLOYMENT.md](./DEPLOYMENT.md)** for the complete GitHub + Supabase + Ve
 
 ## 📞 Contact
 
-**Rv Media Online** — Noida, Uttar Pradesh, India
-- Phone: +91 9508786003
-- Email: Info.rvmediaonline.com
-- *The Art of The Algorithm*
+**Rv Media Technologies** — Noida, Uttar Pradesh, India
+- Phone: +91 93107 39176
+- Email: Info.rvmediatechnologies@gmail.com
+- *The Art of The Algorithm + Code*
