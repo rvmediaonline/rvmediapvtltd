@@ -7,6 +7,10 @@ const footerLinks = {
   Services: [
     "SEO Services",
     "PPC / Google Ads",
+    "Meta Ads",
+    "SaaS B2B",
+    "Tech Solutions",
+    "Ai Business Integration",
     "Social Media Marketing",
     "Content Marketing",
     "Web Design & Dev",
@@ -67,7 +71,7 @@ export function Footer() {
                     WebkitTextFillColor: "transparent",
                   }}
                 >
-                  Rv Media Online
+                  Rv Media Technologies
                 </span>
                 <span
                   className="block"
@@ -79,7 +83,7 @@ export function Footer() {
                     textTransform: "uppercase",
                   }}
                 >
-                  The Art of The Algorithm
+                  The Art of The Algorithm + Code
                 </span>
               </div>
             </div>
@@ -94,7 +98,7 @@ export function Footer() {
                 maxWidth: "280px",
               }}
             >
-              India's premier algorithm-driven digital marketing agency. We engineer brands for visibility, authority, and compounding growth.
+              India's premier algorithm-driven digital marketing & Tech agency. We engineer brands for visibility, authority, and compounding growth.
             </p>
 
             {/* Social Icons */}
@@ -242,7 +246,7 @@ export function Footer() {
               color: "rgba(255,255,255,0.2)",
             }}
           >
-            © 2026 Rv Media Online. All rights reserved. | "The Art of The Algorithm"
+            © 2021 Rv Media Technologies Pvt. Ltd. All rights reserved. | "The Art of The Algorithm & Code"111
           </p>
           <div className="flex gap-6">
             {["Privacy", "Terms", "Cookies"].map((item) => (
