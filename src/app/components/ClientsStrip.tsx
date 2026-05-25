@@ -22,7 +22,7 @@ export function ClientsStrip() {
             textTransform: "uppercase",
           }}
         >
-          Trusted by 500+ Growing Brands Worldwide
+          Trusted by 150+ Growing Brands Worldwide
         </p>
       </div>
 
