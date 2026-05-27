@@ -1,20 +1,40 @@
-# Rv Media Online 🚀
+# RV Media Technologies 🚀
 
-> **India's #1 Algorithm-Driven Digital Marketing Agency**
+> **India's #1 Algorithm-Driven Digital Marketing & Technology Agency**
 > *"The Art of The Algorithm"*
 
 A premium, full-stack marketing agency website built with React + Vite, featuring real 3D elements, Supabase backend, and one-click Vercel deployment.
+
+🌐 **Website:** [rvmediatechnologies.com](https://rvmediatechnologies.com)
 
 ---
 
 ## ✨ Features
 
 ### 🎨 Frontend
-- **15 Sections** — Hero, Services, Stats, Process, Results, Industries, Testimonials, Pricing, Blog, CTA, Contact
+- **15+ Sections** — Hero, Services, Stats, Process, Results, Industries, Testimonials, Pricing, Blog, CTA, Contact, Promo Banner
 - **Real 3D Elements** (Three.js / React Three Fiber) — animated geometric scenes in Hero, Services, and CTA
 - **Framer Motion** animations throughout
 - **Dark glassmorphism** UI with purple/cyan brand palette
 - **Fully responsive** — mobile, tablet, desktop
+- **Code-split chunks** for optimized loading performance
+
+### 💼 Services
+- SEO Services
+- PPC / Google Ads
+- Social Media Marketing
+- Content Marketing
+- Web Design & Development
+- E-commerce Marketing
+- Local SEO
+- Video Marketing
+- HRM Software Solution
+- CRM Software Solution
+- App Solutions (iOS & Android)
+- Online Marketing / Advertisement (Hotstar, Jio, Amazon)
+- AI Driven Set-up
+- AI Integration in Business
+- Telecalling AI Integration
 
 ### ⚙️ Backend (Supabase)
 - **Contact Form** → saved to `contact_submissions` table with lead status tracking
@@ -34,18 +54,20 @@ A premium, full-stack marketing agency website built with React + Vite, featurin
 ## 🗂 Project Structure
 
 ```
-rv-media-online/
+rv-media-technologies/
 ├── src/
 │   ├── app/
 │   │   ├── components/
-│   │   │   ├── 3d/              ← Three.js scenes
+│   │   │   ├── 3d/                 ← Three.js scenes
 │   │   │   │   ├── Scene3DHero.tsx
 │   │   │   │   ├── Scene3DServices.tsx
-│   │   │   │   └── Scene3DCTA.tsx
+│   │   │   │   ├── Scene3DCTA.tsx
+│   │   │   │   └── ThreeCanvas.tsx  ← Lazy-loaded 3D wrapper
 │   │   │   ├── HeroSection.tsx
 │   │   │   ├── ServicesSection.tsx
-│   │   │   ├── ContactSection.tsx  ← Supabase wired
-│   │   │   ├── Footer.tsx          ← Newsletter wired
+│   │   │   ├── ContactSection.tsx   ← Supabase wired
+│   │   │   ├── Footer.tsx           ← Newsletter wired
+│   │   │   ├── PromoBanner.tsx      ← Free Videography & Photography offer
 │   │   │   ├── LoadingScreen.tsx
 │   │   │   ├── ScrollToTop.tsx
 │   │   │   └── PageTransition.tsx
@@ -53,19 +75,19 @@ rv-media-online/
 │   │   │   ├── Home.tsx
 │   │   │   ├── ServicesPage.tsx
 │   │   │   ├── ContactPage.tsx
-│   │   │   └── AdminPage.tsx       ← Lead dashboard
+│   │   │   └── AdminPage.tsx        ← Lead dashboard
 │   │   ├── App.tsx
 │   │   └── routes.tsx
 │   ├── hooks/
-│   │   ├── useContactForm.ts       ← Supabase contact hook
-│   │   └── useNewsletter.ts        ← Supabase newsletter hook
+│   │   ├── useContactForm.ts        ← Supabase contact hook
+│   │   └── useNewsletter.ts         ← Supabase newsletter hook
 │   └── lib/
-│       └── supabaseClient.ts       ← Typed Supabase client
+│       └── supabaseClient.ts        ← Typed Supabase client
 ├── supabase/
-│   └── schema.sql                  ← Run this in Supabase SQL Editor
-├── .env.example                    ← Copy to .env, add your keys
-├── vercel.json                     ← Vercel SPA config
-├── DEPLOYMENT.md                   ← Full deployment guide
+│   └── schema.sql                   ← Run this in Supabase SQL Editor
+├── .env.example                     ← Copy to .env, add your keys
+├── vercel.json                      ← Vercel SPA config
+├── DEPLOYMENT.md                    ← Full deployment guide
 └── package.json
 ```
 
@@ -74,16 +96,19 @@ rv-media-online/
 ## 🚀 Quick Start
 
 ```bash
-# 1. Install dependencies
+# 1. Clone the repository
+git clone https://github.com/rvmediaonline/RJ.git
+
+# 2. Install dependencies
 npm install
 
-# 2. Copy env file and add Supabase keys
+# 3. Copy env file and add Supabase keys
 cp .env.example .env
 
-# 3. Start development server
+# 4. Start development server
 npm run dev
 
-# 4. Build for production
+# 5. Build for production
 npm run build
 ```
 
@@ -118,9 +143,28 @@ See **[DEPLOYMENT.md](./DEPLOYMENT.md)** for the complete GitHub + Supabase + Ve
 
 ---
 
+## 📦 Bundle Optimization
+
+The project uses **manual chunk splitting** and **lazy loading** for optimal performance:
+
+- `vendor-react` — React core libraries
+- `vendor-motion` — Framer Motion
+- `vendor-three` — Three.js core
+- `vendor-fiber` — React Three Fiber
+- `vendor-drei` — Drei helpers
+- `vendor-supabase` — Supabase client
+- `vendor-ui` — Lucide icons + Sonner
+- `ThreeCanvas` — Lazy-loaded 3D component
+
+---
+
 ## 📞 Contact
 
-**Rv Media Online** — Noida, Uttar Pradesh, India
-- Phone: +91 9508786003
-- Email: Info.rvmediaonline.com
-- *The Art of The Algorithm*
+**RV Media Technologies** — Noida, Uttar Pradesh, India
+- 🌐 Website: [rvmediatechnologies.com](https://rvmediatechnologies.com)
+- 📧 Email: info@rvmediatechnologies.com
+- 📱 Phone: +91 9508786003
+
+---
+
+*The Art of The Algorithm* ✨
